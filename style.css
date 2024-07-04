@@ -1,0 +1,186 @@
+*
+{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  padding-left:2%;
+  background-color:white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: -3px -10px 5px 0px rgba(166, 164, 164, 0.25) inset;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    display: block;
+    padding:16px;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1); /* Increase size by 10% */
+    opacity: 0.8; /* Reduce opacity to 80% */
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; /* Add a smooth transition */
+  }
+
+.menu {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:40%;
+}
+.menu i {
+    padding-left:5%;
+    padding-right:20%;
+}
+
+.log{
+    position: absolute;
+    bottom: 5%;
+    margin-left:5%
+}
+
+.dashboard img{
+    height:30%;
+    width:30%;
+}
+
+.dashboard {
+    margin-left: 15%;
+    margin-top:5%;
+    display:block;   
+}
+
+.dashboard h3 {
+    font-size: 20px;
+    font-weight:900;
+}
+.main {
+    margin-left:22%;
+    padding-top:2%;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:95%;
+}
+
+.courses {
+    padding-left:10%;
+    padding-right:5%;
+    padding-top:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:85%;
+}
+
+.fsd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:20vh;
+    width:20%;
+}
+
+.courses .fsd i {
+    font-size: 2em; /* Increase the font size to 2 times the default */
+  }
+
+.courses .fsd h4{
+    font-weight: 900;
+}
+
+.courses .fsd p{
+    font-weight:50px;
+    color: rgb(117, 114, 114);
+}
+
+button {
+    background-color:orangered;
+    padding: 10px;
+    border-radius:10px;
+    border: none;
+    color: white;
+    font-size:medium;
+}
+
+.content {
+    padding-top: 2%;
+    
+}
+
+.content h2{
+    font-size: larger;
+    padding-bottom:2%;
+}
+
+
+.myc{
+    padding-top:2%;
+    background: repeating-linear-gradient(324deg,#0b0b69 0%, #000000 20%);
+    height:40vh;
+    width: 95%;
+}
+.topnav a{
+    padding: 2%;
+    color: grey;
+    text-decoration: none; 
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    padding-left:2%;
+    padding-top: 2%;
+}
+
+.ind {
+    background-color: rgb(236, 233, 233);
+    height:30vh;
+    width:30%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.ind h4, p{
+    padding-left:5%;
+    padding-top: 5%;
+}
+
+.ind h4{
+    font-weight:900;
+}
+
+.ind button {
+    bottom:20%;
+    left: 5%;
+    position:absolute;
+}
+
+.ind i{
+    top:15%;
+    right:10%;
+    position: absolute;
+    font-size: 12em;
+
+}
+
+
